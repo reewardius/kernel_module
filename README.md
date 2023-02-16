@@ -6,6 +6,8 @@
 > sudo make
 > sudo chmod +x reverseshell.ko
 > sudo insmod reverseshell.ko
+> dmesg | tail -> check to verify that the module has been loaded and the script has been executed
+> sudo rmmod reverseshell -> delete
 ```
 # kernel_module (via bash script)
 ```
@@ -15,4 +17,6 @@
 > sudo make
 > sudo chmod +x revfile.ko
 > sudo insmod revfile.ko
+> dmesg | tail -> check to verify that the module has been loaded and the script has been executed
+> sudo rmmod revfile -> delete
 ```

